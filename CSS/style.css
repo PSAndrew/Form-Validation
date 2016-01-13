@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper{
+	background-color: #e5e5e5;
+	border-radius: 15px;
+	font-family: helvetica, sans-serif;
+	font-size: 1.25em;
+	margin: 0 auto;
+	padding: 10px 45px;
+	width: 600px;
+}
+:placeholder-shown,
+::-webkit-input-placeholder{
+	color: #d9d9d9;
+}
+input{
+	border-radius: 10px;
+	font-size: 1.25em;
+	height: 40px;
+	margin: 15px;
+	padding: 5px;
+	text-align: center;
+	width: 275px;
+}
+
+label{
+	float: left;
+	padding-top: 25px;
+	width: 175px;
+}
+
+#submitButton{
+	height: 50px;
+	margin-left: 190px;
+	width: 100px;
+}
+
+#error{
+	background-color: #a20000;
+	border-radius: 5px;
+	color: #f60000;
+	line-height: 1.5em;
+	text-align: center;
+}
